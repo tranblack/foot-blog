@@ -103,10 +103,9 @@ hr {
 
 /* Header */
 .header {
-    height: 54px;
     background-color: #fff; 
     position: fixed;
-    padding: 0 16px;
+    padding: 8px 24px;
     top: 0;
     right: 0;
     left: 0;
@@ -115,23 +114,20 @@ hr {
 }
 
 .header .nav {
-    display: inline-block;
-    letter-spacing: 4px;
+
 }
 
 .header .subnav a,
 .header .nav a {
+    float: left;
     color: inherit;
-    display: inline;
     text-decoration: none;
-    padding: 12px 16px;
-    line-height: 55px;
+    padding: 8px 16px;
     letter-spacing: 4px;
 }
 
 .header .subnav a:hover,
 .header .nav a:hover{
-    padding: 10px 16px;
     color: #000;
     background-color: #ccc;
     cursor: pointer;
@@ -221,7 +217,7 @@ hr {
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
     margin: 16px 0;
-    padding: 12px 16px;
+    padding: 10px 16px;
     border: none;
     display: inline-block;
     cursor: pointer;

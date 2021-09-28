@@ -75,10 +75,6 @@ h4 {
     float: left;
 }
 
-.col.col-haft {
-    width: 50%;
-}
-
 .col-haft {
     width: 50%;
 }
@@ -97,12 +93,11 @@ html {
     font-size: 15px;
     line-height: 1.5;
     font-family: 'Times New Roman', Times, serif;
-    scroll-behavior: smooth !important;
 }
 
 hr {
     border: 0;
-    border-top: 5px solid red;
+    border-top: 1px solid #eee;
     margin: 20px 0;
 }
 
@@ -166,7 +161,6 @@ hr {
     max-width: 1100px;
     margin-left: auto;
     margin-right: auto;
-    justify-content: center
 }
 
 /* About */

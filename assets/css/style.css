@@ -1,0 +1,257 @@
+
+/*Reset CSS*/
+/*
+    1. Từ trong ra ngoaì
+    2. Từ trên xuống dưới
+    3. Tổng quan đến chi tiết
+*/
+/*
+    1. Vị trí
+    2. Kích thước
+    3. Màu sắc
+    4. Hình dáng(tròn, vuông,...)
+*/
+
+.pull-right {
+    float: right !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.pad-12-24 {
+    padding: 12px 24px !important;
+}
+
+.pad-16 {
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+}
+
+.pad-64 {
+    padding-top: 64px !important;
+    padding-bottom: 64px !important;
+}
+
+.font-18 {
+    font-size: 18px !important;
+}
+
+.text-gray {
+    color: #757575 !important;
+}
+
+.mar-15 {
+    margin: 15px 0 !important;
+}
+
+.mar-18 {
+    margin: 18px 0 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 10px 0;
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col {
+    float: left;
+}
+
+.col.col-haft {
+    width: 50%;
+}
+
+.col-haft {
+    width: 50%;
+}
+
+.col-full {
+    width: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    scroll-behavior: smooth !important;
+}
+
+hr {
+    border: 0;
+    border-top: 5px solid red;
+    margin: 20px 0;
+}
+
+/* Header */
+.header {
+    height: 54px;
+    background-color: #fff; 
+    position: fixed;
+    padding: 0 16px;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 0,0,0.4);
+}
+
+.header .nav {
+    display: inline-block;
+    letter-spacing: 4px;
+}
+
+.header .subnav a,
+.header .nav a {
+    color: inherit;
+    display: inline;
+    text-decoration: none;
+    padding: 12px 16px;
+    line-height: 55px;
+    width: 100%;
+    letter-spacing: 4px;  
+}
+
+.header .subnav a:hover,
+.header .nav a:hover{
+    padding: 10px 16px;
+    color: #000;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.header .subnav {
+    display: inline-block;
+    letter-spacing: 4px;
+    width: auto;
+}
+
+.slider {
+    position: relative;
+    padding-top: 50%;
+    background: url('../image/food/hamburger.jpg') top center / cover no-repeat;
+}
+.slider .title {
+    position: absolute;
+    bottom: 0;
+    font-size: 36px;
+    opacity: 0.6;
+}
+
+/* Content*/
+.content {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center
+}
+
+/* About */
+
+.about-section .about-image {
+    width: 600px;
+    height: 750px;
+    max-width: 50%;
+    height: auto;
+}
+
+.about-section .grayed-out {
+    color:#000;
+    background-color: #F1F1F1;
+    padding: 0 8px;
+    display: inline-block;
+}
+
+/* Menu */
+.menu-section .menu-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.menu-section .menu-image img,
+.about-section .about-image img {
+    border-radius: 4px;
+    opacity: 0.75;
+}
+
+/* Contact*/
+.contact-section {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.contact-section .text-contact {
+    color: #607d8b;
+    font-weight: bolder;
+}
+
+/* Form-contact */
+
+.form-control {
+    padding: 16px 8px;
+    width: 100%;
+    display: block;
+    font: inherit;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.form-btn {
+    color: #000;
+}
+
+.contact-btn {
+    background-color: #F1F1F1;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 16px 0;
+    padding: 12px 16px;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.contact-btn:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+.footer {
+    padding: 32px 0;
+    color: #000;
+    background-color: #f1f1f1;
+}
+
+.text-footer {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.text-footer a {
+    color: #000;
+}
+

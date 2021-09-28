@@ -255,3 +255,6 @@ hr {
     color: #000;
 }
 
+.text-footer a:hover {
+    color: #4CAF50;
+}
